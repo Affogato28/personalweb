@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
 :root {
     --primary: #1A0C27;
 }
@@ -24,7 +22,7 @@ body {
 #header {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0%;
     width: 100%;
     padding: 30px 100px;
     display: flex;
@@ -43,7 +41,7 @@ body {
 
  /*End of menubar*/
 span{
-    color: black;
+    color: whitesmoke;
 }
 
 #header ul {
@@ -54,7 +52,9 @@ span{
 
 #header ul li {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 50px;
+    
+ 
 }
 
 #header ul li a {
@@ -62,6 +62,7 @@ span{
     padding: 6px 15px;
     color: var(--primary);
     border-radius: 20px;
+  
 }
 
 #header ul li a:hover,
@@ -101,7 +102,7 @@ section img {
 
 section #text {
     position: absolute;
-    color: var(--black);
+    color:white;
     font-size: 10vw;
     text-align: center;
     line-height: .55em;
@@ -109,53 +110,14 @@ section #text {
     transform: translatey(-50%);
 }
 
-section #text span {
+section #text b{
     font-size: .20em;
     letter-spacing: 2px;
-    font-weight: 400;
-
+    font-weight: 500%;
+    color: black;
+    
 }
 
-#btn {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 30px;
-    background: #fff;
-    color: var(--primary);
-    font-size: 1.2em;
-    font-weight: 500;
-    letter-spacing: 2px;
-    border-radius: 40px;
-    transform: translatey(100px);
-}
-
-.sec {
-    position: relative;
-    padding: 100px;
-    background: var(--primary);
-}
-
-.sec h2 {
-    font-size: 3.5em;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.sec p {
-    font-size: 1em;
-    color: #fff;
-}
-
-footer {
-    position: relative;
-    padding: 0px 100px;
-    background: var(--primary);
-}
-
-footer a {
-    text-decoration: none;
-    color: #fff;
-}
 /*----- About me css -----*/
 
 .card {
@@ -214,10 +176,10 @@ footer a {
     background: rgb(36, 116, 221);
     color: white;
   }
-  /*icon for socmed*/
+  /*------------------ icon for socmed ------------------*/
 
   
-  *:focus,
+*:focus,
 *:active {
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
@@ -230,7 +192,7 @@ footer a {
 }
 
 .wrapper .icon {
-  background: #ffffff;
+  background: black;
   border-radius: 50%;
   padding: 15px;
   margin: 10px;
